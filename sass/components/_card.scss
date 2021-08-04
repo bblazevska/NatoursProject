@@ -1,7 +1,7 @@
 .card{
    //rotate functionality
-   perspective: 150rem;
    -moz-perspective: 150rem;
+   perspective: 150rem;
    position: relative;
    height: 52rem;
 
@@ -149,7 +149,9 @@
       }
    }
 
-   @include respond(tab-port){
+   // @include respond(tab-port)
+   @media only screen and (max-width: 56.25em),
+   only screed and (hover:none){
       
          height: auto;
          border-radius: 3px;
